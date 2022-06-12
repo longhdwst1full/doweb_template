@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/gridsystem.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="grid wide">
+        <div class="row header" id="header_index">
+        </div>
+        <div class="wide content ">
+            <div class="row  bander">
+                <div class="col l-6 m-6 c-12 bander__content">
+
+                    <button style="text-align: left;">Quality Food</button>
+                    <h2>Fastest
+                        <br> <span>Delivery</span> & <br> Easy <span>Pickup</span>
+                    </h2>
+                    <p class="bander__content--descr">Best cooks and best delivery guys all at your service. Hot tasty
+                        food will reach you in 60 minutes.</p>
+                    <form action="">
+                        <div class="form_heading">
+                            <input type="text" name="" id="" placeholder="Enter your delivery location">
+                            <button>Discover</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col l-6 m-6 c-12 bander__img">
+
+
+                    <img src="./images/imageHome/Images.png">
+
+                </div>
+            </div>
+            <div class="row">
+                <h1 class="col l-12 m-12 c-12 tittle">Our Popular Dishes</h1>
+                <p class="col l-12 m-12 c-12 tittle__description">Lorem ipsum dolor sit amet, consectetuipisicing elit,
+                    sed do eiusmod tempor incididunt ut <br> labore et dolore magna aliqut enim ad minim </p>
+            </div>
+            <div class=" wide content__main">
+                <div class="filter">
+                    <select name="" id="filter-select">
+                        <option value="" hidden>Lọc giá</option>
+                        <option value="all">Tất cả</option>
+                        <option value="under30">Dưới 30 $</option>
+                        <option value="over30">Trên 30 $</option>
+                    </select>
+                </div>
+                </div>
+
+                </select>
+                
+                <div class="row iteam_tittle">
+
+    
+                    </div> 
+                </div>
+
+
+            </div>
+            <!-- category -->
+
+
+            <div class="grid wide category">
+                <div class="row category__heading">
+                    <h1 class="col l-6 m-2">Category</h1>
+                    <div class="col l-3 m-3 category_btn">
+                        <button class="">View All Categories</button>
+                    </div>
+                </div>
+                <div class="row category__list">
+                 
+                </div>
+            </div>
+
+            <!-- contact -->
+            <div class="grid wide contact">
+                <div class="row">
+                    <h1 class="col l-12 m-12 c-12">Contact Me</h1>
+                </div>
+                <form action="" class="wide" onsubmit="return validate()">
+                  
+                    <div class=" form_info">
+                        <div class="row form_left">
+                            <div class="col l-6 m-6 c-12">
+                                <p> <label for="">Name</label></p>
+                                <input type="text" id="hoten" placeholder="Enter your name ...">
+                                <p id="error_name"></p>
+                            </div>
+                            <div  class="col l-6 m-6 c-12">
+
+                                <p> <label for="">emAIL aDDRESS</label></p>
+                                <input type="text" id="email" placeholder="Your email address... ...">
+                                <p id="error_email"></p>
+                            </div>
+
+                        </div>
+                        <div class="row form_left">
+                            <div class="col l-6 m-6 c-12">
+                                <p> <label for="">Subject</label></p>
+                                <input type="text" id="subject" placeholder="Enter subject... ...">
+                                <p id="error_subject"></p>
+                            </div>
+                            <div  class="col l-6 m-6 c-12">
+                                <p > <label for="">ENquiry type</label></p>
+                                <select name="" id="ENquiry">
+                                    <option value="">Advertising...
+                                    </option>
+                                    <option value="Breakfast">Breakfast</option>
+                                    <option value="Vegan">Vegan</option>
+                                    <option value="Meat">Meat</option>
+                                    <option value="Dessert">Dessert</option>
+                                </select>
+                                <p id="error_ENquiry"></p>
+                            </div>
+
+                        </div>
+                       
+                    </div>
+                    
+                    <p class=""> <label for="">MEssages</label></p>
+
+                    <textarea name="" id="messages" cols="30" placeholder="Enter your messages..." rows="10"></textarea>
+                    <p id="error_messages"></p>
+
+                    <div style="display: flex;justify-content: center;">
+                        <button style="text-align: center;">Submit</button>
+
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        <div class=" grid wide row footer">
+
+        </div>
+
+    </div>
+    <div class="sub_menu_hide">
+        <div class="sub_menu_content">
+            <ul class="sub_nav">
+
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./product.html">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="./contactUs.html">Contact Us</a></li>
+
+                <li><a href="./sign_in.html">Sign In</a></li>
+                <li><a href="./refren.html">Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="./js/home/header.js"></script>
+    <script src="./js/home/navbar_menu.js"></script>
+    <script src="./js/home/form.js"></script>
+    <script src="./js/home/content_product.js"></script>
+    <script src="./js/home/footer.js"></script>
+
+</body>
+
+</html>
